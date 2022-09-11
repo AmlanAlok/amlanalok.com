@@ -17,3 +17,9 @@ Route 53 Setup
 7. Add amlanalok.com and www.amlanalok.com as records with redirection to the S3 www.amlanalok.com bucket
 
 Now, www.amlanalok.com should start working
+
+Cloud Front
+
+8. In the origin name, add the link from the static hosting section of the s3 bucket.
+9. Fill the Alternative Domain Name as the domain name like www.amlanalok.com and amlanalok.com
+10. Redirect from HTTP to HTTPS
