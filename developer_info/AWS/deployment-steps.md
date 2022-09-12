@@ -3,6 +3,9 @@
 
 source = https://www.youtube.com/watch?v=mls8tiiI3uc
 
+AWS Doc:
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html
+
 S3 Setup
 
 1. Create two buckets - www.amlanalok.com and amlanalok.com
