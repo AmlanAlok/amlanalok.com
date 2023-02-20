@@ -1,14 +1,14 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Home/Home.js'
+import Resume from './components/Resume/Resume'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Welcome to Amlan Alok's website</p>
-        <p>Website is under development</p>
-        <p>Will launch very soon</p>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element = {<Home />}/>
+      <Route path='resume' element = {<Resume />}/>
+    </Routes>
   );
 }
 
