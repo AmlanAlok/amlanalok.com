@@ -2,11 +2,6 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        // <nav className="">
-        //     <NavLink to='/'>Home</NavLink>
-        //     <NavLink to='/resume'>Resume</NavLink>
-        // </nav>
-
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">

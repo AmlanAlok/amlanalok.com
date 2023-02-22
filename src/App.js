@@ -8,12 +8,12 @@ import NoMatch from './components/NoMatch/NoMatch'
 function App() {
   return (
     <div className='container-fluid'>
-    <Navbar></Navbar>
-    <Routes>
-      <Route path='/' element = {<Home />}/>
-      <Route path='resume' element = {<Resume />}/>
-      <Route path='*' element={<NoMatch />}/>
-    </Routes>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='resume' element={<Resume />} />
+        <Route path='*' element={<NoMatch />} />
+      </Routes>
     </div>
   );
 }
