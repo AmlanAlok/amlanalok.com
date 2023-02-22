@@ -9,7 +9,7 @@ function Resume() {
                 <Topics/>
             </div>
             <div className="col-sm-10 remove-padding B">
-                <h2>Resume</h2>
+                <h1 className='center_pos'>Resume</h1>
                 <Education />
             </div>
         </div>

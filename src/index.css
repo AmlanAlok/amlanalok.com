@@ -36,3 +36,11 @@ nav a.active {
 .float-right{
   float: right;
 }
+
+.no-list-decoration {
+  list-style-type: none;
+}
+
+.center_pos {
+  text-align: center;
+}
