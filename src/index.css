@@ -28,3 +28,11 @@ nav a.active {
   /* text-decoration: orange; */
   font-weight: bolder;
 }
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
