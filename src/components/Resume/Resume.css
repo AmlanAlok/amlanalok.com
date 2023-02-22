@@ -1,0 +1,14 @@
+.topic-menu-bar {
+    background-color: salmon;
+    height: 100%;
+    /* width: 100%; */
+    padding: 0px;
+}
+
+.remove-padding {
+    padding: 0px;
+}
+
+.B {
+    background-color: skyblue;
+}

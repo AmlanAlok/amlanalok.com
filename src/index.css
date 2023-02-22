@@ -12,17 +12,19 @@ code {
     monospace;
 }
 
-nav {
+/* nav {
   background-color: royalblue; 
-  padding: 16px 32px;
-}
+  padding: 16px 32px; 
+} */
 
-nav a {
-  color: white; 
+/* nav a {
+  color: royalblue;  
   margin-right: 16px;
-}
+} */
 
 nav a.active {
-  text-decoration: none;
+  /* background-color: royalblue;
+  color: white; */
+  /* text-decoration: orange; */
   font-weight: bold;
 }
