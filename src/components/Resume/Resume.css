@@ -1,8 +1,9 @@
 .topic-menu-bar {
-    background-color: salmon;
+    background-color: royalblue;
     height: 100%;
     /* width: 100%; */
     padding: 0px;
+    color: white;
 }
 
 .remove-padding {

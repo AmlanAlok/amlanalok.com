@@ -7,7 +7,7 @@ import NoMatch from './components/NoMatch/NoMatch'
 
 function App() {
   return (
-    <div className='container-fluid'>
+    <div className='container'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
