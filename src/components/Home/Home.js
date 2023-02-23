@@ -46,8 +46,14 @@ function Home() {
                             <button className='btn btn-success'>View Resume</button>
                         </a>
 
-
+                        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
                         <h4>You can reach out to me via the below mediums.</h4>
+
+                        <a href='https://www.linkedin.com/in/amlanalok'><img src="icons8-linkedin-48.png" alt='Linkedin' /></a>
+
+                        <a href='mailto:amlanalok.work@gmail.com'><img src="icons8-mail-48.png" alt='Email' /></a>
+
+                        <a href="https://wa.me/4707218870" target="_blank"><img src="icons8-whatsapp-48.png" alt='Whatsapp' /></a>
                     </div>
 
 
