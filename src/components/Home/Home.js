@@ -28,7 +28,7 @@ function Home() {
 
                         <ul>
                             <li><h4>Are a great fit for a particular role/position, or</h4></li>
-                            <li><h4>They can help some company to achieve their mission or goals</h4></li>
+                            <li><h4>They can help your/some company to achieve their mission or goals</h4></li>
                         </ul>
 
                         <h4>Kindly reach out to me.</h4>
@@ -42,7 +42,7 @@ function Home() {
                             <button className='btn btn-primary'>Download Resume</button>
                         </a>
                             &emsp;
-                            <a href='Amlan_Alok_Resume.pdf' target='_blank'>
+                            <a href='Amlan_Alok_Resume.pdf' target='_blank' rel="noreferrer">
                             <button className='btn btn-success'>View Resume</button>
                         </a>
 
@@ -53,7 +53,7 @@ function Home() {
 
                         <a href='mailto:amlanalok.work@gmail.com'><img src="icons8-mail-48.png" alt='Email' /></a>
 
-                        <a href="https://wa.me/4707218870" target="_blank"><img src="icons8-whatsapp-48.png" alt='Whatsapp' /></a>
+                        <a href="https://wa.me/4707218870" target="_blank" rel="noreferrer"><img src="icons8-whatsapp-48.png" alt='Whatsapp' /></a>
                     </div>
 
 
