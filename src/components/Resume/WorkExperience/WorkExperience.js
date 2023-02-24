@@ -7,6 +7,7 @@ function WorkExperience() {
             <h2>Work Experience</h2>
             <h4>
                 <Vasquez/>
+                <br/>
                 <Cognizant/>
             </h4>
         </div>
