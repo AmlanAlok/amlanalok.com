@@ -9,7 +9,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <div className="bg-img">
+        <App />
+      </div>
     </BrowserRouter>
   </React.StrictMode>
 );  // not normal JS code

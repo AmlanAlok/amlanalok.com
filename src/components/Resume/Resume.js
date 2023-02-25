@@ -10,10 +10,7 @@ import Sidebar from "./Sidebar/Sidebar";
 function Resume() {
     return (
         <div className="row">
-            <div className="col-sm-2 remove-padding">
-                <Sidebar/>
-            </div>
-            <div className="col-sm-10">
+            <div className="D">
                 <h1 className='center-pos'>Resume</h1>
                 <Education />
                 <Skills />

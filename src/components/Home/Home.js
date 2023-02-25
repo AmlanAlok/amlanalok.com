@@ -4,7 +4,7 @@ function Home() {
     const navigate = useNavigate()
 
     return (
-        <div>
+        <div >
             <header>
                 <h1 className='center-pos'>Welcome to Amlan Alok's website</h1>
                 <div className='row'>

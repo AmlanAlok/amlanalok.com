@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.bg-img {
+  background-image: url("images/26.jpg") ;
 }
 
 code {
@@ -12,21 +17,12 @@ code {
     monospace;
 }
 
-/* nav {
-  background-color: royalblue; 
-  padding: 16px 32px; 
-} */
 
-/* nav a {
-  color: royalblue;  
-  margin-right: 16px;
-} */
 
 nav a.active {
-  /* background-color: royalblue;
-  color: white; */
-  /* text-decoration: orange; */
+  background-color: turquoise;
   font-weight: bolder;
+
 }
 
 .float-left{

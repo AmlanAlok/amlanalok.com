@@ -8,17 +8,16 @@
 }
 
 .sidebar {
-    background-color: royalblue;
+    /* background-color: ro */
     /* height: 100%; */
     /* width: 100%; */
-    padding: 0px;
-    color: white;
-    
+    padding: 0px;    
 }
 
 .sidebar .row-item {
     height: 50px;
     padding-left: 40px;
+    /* border-width: 2px; */
     display: flex;
     /* To bring text to horizontal center */
     /* justify-content: center; */
@@ -32,7 +31,7 @@
 
 .sidebar .row-item:hover {
     cursor: pointer;
-    background-color: violet;
+    background-color: turquoise;
 }
 
 .remove-padding {
@@ -45,5 +44,19 @@
 }
 
 .B {
-    background-color: skyblue;
+    /* background-color: skyblue; */
+    height: 100%;
+    width: 20%;
+}
+
+.D {
+    width: 80%;
+    /* background-color: lightgrey; */
+    /* background-image: url("../../images/26.jpg"); */
+}
+
+.Z {
+    display: flex;
+    flex-direction: row;
+
 }
