@@ -14,10 +14,14 @@ function Resume() {
                 <h1 className='center-pos'>Resume</h1>
                 <Education />
                 <Skills />
-                <WorkExperience />
+                <div className="justify-txt">
+                    <WorkExperience />
+                </div>
                 <Assitantships />
                 <Certifications />
-                <Projects />
+                <div className="justify-txt">
+                    <Projects />
+                </div>
             </div>
         </div>
     )
