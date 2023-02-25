@@ -16,7 +16,7 @@ function Skills() {
                 <li><strong>ML/ Data Science:</strong> Numpy | Tensorflow | PySpark | Pandas | Sklearn</li>
                 <li><strong>Monitoring:</strong> Splunk</li>
                 <li><strong>Scripting:</strong> Bash</li>
-                <li><strong>Tools:</strong> Git | Jira | Confluence | Postman</li>
+                <li><strong>Tools:</strong> Git | Bitbucket | Jira | Confluence | Postman</li>
                 <li><strong>Methodologies:</strong> Scrum Agile | TDD | Pair Programming | RESTful API | Microservice | Serverless</li>
                 </h4>
             </ul>
