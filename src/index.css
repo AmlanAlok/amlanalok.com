@@ -9,7 +9,14 @@ body {
 }
 
 .bg-img {
-  background-image: url("images/26.jpg") ;
+  /* background-image: url("images/light-grey-terrazo.png") ; */
+  background-color: d3d3d3;
+}
+
+.rec-bg-color {
+  background-color: 858585;
+  /* border-radius: 20px; */
+  border: 2px solid black;
 }
 
 code {
@@ -17,10 +24,8 @@ code {
     monospace;
 }
 
-
-
 nav a.active {
-  background-color: turquoise;
+  /* background-color: turquoise; */
   font-weight: bolder;
 
 }
@@ -43,4 +48,16 @@ nav a.active {
 
 .justify-txt {
   text-align: justify;
+}
+
+.tranlusent {
+  opacity: 1;
+}
+
+.big-letter {
+  font-size: 50px;
+}
+
+.med-letter {
+  font-size: 35px;
 }

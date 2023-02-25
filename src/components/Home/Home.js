@@ -6,7 +6,7 @@ function Home() {
     return (
         <div >
             <header>
-                <h1 className='center-pos'>Welcome to Amlan Alok's website</h1>
+                <h1 className='center-pos'><span className='big-letter'>A</span><span className='med-letter'>MLAN</span><span className='big-letter'> A</span><span className='med-letter'>LOK</span></h1>
                 <div className='row'>
                     <div className="col-sm-8 justify-txt">
 
@@ -22,7 +22,7 @@ function Home() {
                         <h4>But all good things come to an end and my client’s project scope was going to end in December of 2020. Hence, instead of joining a new project I decided to pursue higher education to learn about emerging technologies, broaden my scope of thinking, hone my skills and improve my future prospects.</h4>
 
                     </div>
-                    <div className="col-sm-4 justify-txt">
+                    <div className="rec-bg-color col-sm-4 justify-txt">
                         <h2>For Recruiters</h2>
                         <h4>If you are a recruiter or someone who knows of a possible job opportunity, and you believe that my experience and skill set: </h4>
 

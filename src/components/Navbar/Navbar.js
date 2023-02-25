@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-default">
+        <nav className="navbar navbar-inverse tranlusent">
             <div className="container-fluid">
                 <div className="navbar-header">
                     <a className="navbar-brand" href="/">Amlan Alok</a>
