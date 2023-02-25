@@ -4,6 +4,7 @@ import Home from './components/Home/Home.js'
 import Resume from './components/Resume/Resume'
 import Navbar from './components/Navbar/Navbar'
 import NoMatch from './components/NoMatch/NoMatch'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='resume' element={<Resume />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

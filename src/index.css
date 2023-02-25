@@ -61,3 +61,17 @@ nav a.active {
 .med-letter {
   font-size: 35px;
 }
+
+.footer-area {
+  height: 60px;
+  background-color: #2d2d2d;
+}
+
+.footer-font {
+  color: white;
+  text-align: center;
+  /* justify-content: center; */
+
+  /* To bring text to vertical center */
+  /* align-items: center;   */
+}
