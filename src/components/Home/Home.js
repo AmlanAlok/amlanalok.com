@@ -27,8 +27,8 @@ function Home() {
                         <h4>If you are a recruiter or someone who knows of a possible job opportunity, and you believe that my experience and skill set: </h4>
 
                         <ul>
-                            <li><h4>Are a great fit for a particular role/position, or</h4></li>
-                            <li><h4>They can help your/some company to achieve their mission or goals</h4></li>
+                            <li><h4>Will be a great fit for a particular role/position, or</h4></li>
+                            <li><h4>Can help your/some company to achieve their mission or goals</h4></li>
                         </ul>
 
                         <h4>Kindly reach out to me.</h4>
@@ -38,7 +38,7 @@ function Home() {
 
                         <h4>You can download/view the 1 page PDF version using the buttons below.</h4>
 
-                        <a href='Amlan_Alok_Resume.pdf' download='Amlan_Alok_Resume_d.pdf'>
+                        <a href='Amlan_Alok_Resume.pdf' download='Amlan_Alok_Resume.pdf'>
                             <button className='btn btn-primary'>Download Resume</button>
                         </a>
                             &emsp;

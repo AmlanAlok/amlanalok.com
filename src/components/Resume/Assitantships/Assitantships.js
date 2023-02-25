@@ -9,7 +9,7 @@ function Assitantships() {
                     {/* <div className='fontsize'> */}
                     <div className="row">
                         <div className="col-sm-9">
-                            <li>Graduate Teaching Assistant</li>
+                            <li><strong>Graduate Teaching Assistant</strong></li>
                         </div>
                         <div className="col-sm-3">
                             <span className='float-right'>Jan 2023 - Present</span>
@@ -23,7 +23,7 @@ function Assitantships() {
 
                     <div className="row">
                         <div className="col-sm-8">
-                            <li>Graduate Teaching Assistant</li>
+                            <li><strong>Graduate Teaching Assistant</strong></li>
                         </div>
                         <div className="col-sm-4">
                             <span className='float-right'>Aug 2022 - Dec 2022</span>
@@ -38,7 +38,7 @@ function Assitantships() {
 
                     <div className="row">
                         <div className="col-sm-8">
-                            <li>Grading Assistant</li>
+                            <li><strong>Grading Assistant</strong></li>
                         </div>
                         <div className="col-sm-4">
                             <span className='float-right'>Jan 2021 - May 2023</span>
