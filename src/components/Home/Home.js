@@ -38,11 +38,11 @@ function Home() {
 
                         <h4>You can download/view the 1 page PDF version using the buttons below.</h4>
 
-                        <a href='Amlan_Alok_Resume.pdf' download='Amlan_Alok_Resume.pdf'>
+                        <a href='Amlan_Alok.pdf' download='Amlan_Alok_Resume.pdf'>
                             <button className='btn btn-primary'>Download Resume</button>
                         </a>
                             &emsp;
-                            <a href='Amlan_Alok_Resume.pdf' target='_blank' rel="noreferrer">
+                            <a href='Amlan_Alok.pdf' target='_blank' rel="noreferrer">
                             <button className='btn btn-success'>View Resume</button>
                         </a>
 
