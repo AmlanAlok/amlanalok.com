@@ -12,12 +12,12 @@ function Home() {
 
                         <h2>Introduction</h2>
                         <h4>I am currently an international graduate student majoring in Computer Science at University of Texas, Arlington. I am in my final semester and will be graduating on 15th May, 2023.</h4>
-                        <h4>I wish to work in the American software industry after I graduate in May 2023 and hence I am looking for job opportunities in USA.</h4>
+                        <h4>I want to work in the American software industry after I graduate in May 2023 and hence I am looking for job opportunities in USA. I have worked as a Cloud Developer and Full-Stack Developer in industry.</h4>
 
                         <h2>Industry Experience</h2>
                         <h4>Prior to coming to USA, I was working as a software professional in Bangalore, India with Cognizant Technology Solutions for 3 years. My client was the Australian Telecom company Telstra.</h4>
                         <h4>During these three years, Cognizant and Telstra gave me the opportunity to work on several different technologies, with great colleagues (teammates and seniors), a vibrant work environment with people from India, Ukraine, Australia, Sri Lanka, Malaysia, Indonesia, Phillippines, Singapore, USA and finally, access to an Udemy business account to learn whatever I want.</h4>
-                        <h4>This allowed me to explore and learn Backend, Frontend, Databases, Serverless, ETL, CI/CD, AWS, Monolith, Microservice and Serverless architecture, Production deployments, Production support during the initial years of my career.</h4>
+                        <h4>This allowed me to explore and learn Cloud, Backend, Frontend, Databases, Serverless, ETL, CI/CD, AWS, Monolith, Microservice and Serverless architecture, Production deployments, Production support during the initial years of my career.</h4>
                         <h4>My experience taught me about taking accountability, managing high pressure, trying to exceed expectations, mentoring juniors, presenting work to clients, managing time critical production issues, and to be strong in times of crisis.</h4>
                         <h4>But all good things come to an end and my client’s project scope was going to end in December of 2020. Hence, instead of joining a new project I decided to pursue higher education to learn about emerging technologies, broaden my scope of thinking, hone my skills and improve my future prospects.</h4>
 
