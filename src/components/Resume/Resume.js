@@ -5,6 +5,7 @@ import Projects from "./Projects/Projects";
 import './Resume.css'
 import Skills from "./Skills/Skills";
 import WorkExperience from "./WorkExperience/WorkExperience";
+import Achievments from "./Achievments/Achievements";
 import Sidebar from "./Sidebar/Sidebar";
 
 function Resume() {
@@ -18,6 +19,7 @@ function Resume() {
                     <WorkExperience />
                 </div>
                 <Assitantships />
+                <Achievments />
                 <Certifications />
                 <div className="justify-txt">
                     <Projects />
