@@ -45,9 +45,11 @@ function Cognizant() {
                         <li><strong>ETL Job - Tech Stack -</strong> Python, Glue (ETL), Lambda, S3, SQL, SFTP, Splunk, Terraform</li>
                         <ul>
                             <li>Designed and implemented solution to fetch, clean and store transaction, dispute reports provided by
-by payment gateway in data warehouse and lake daily. Custom reports were made for many teams.</li>
+by payment gateway in data warehouse and lake daily. Custom reports were made for many teams (Fraud, Data Lake, Data Retention and more).</li>
                             <li>Customer Migration - Developed solution to move and store millions of customer data from previous
 payment gateway (BillPay) to a data warehouse maintained by our team.</li>
+                            <li>I had full ownership of above features and led my sub-team. Managed and provided guidance, support, 
+                                and direction to junior developers. We were solely accountable for production bugs and fixes.</li>
                         </ul>
                     </ul>
                 </div>

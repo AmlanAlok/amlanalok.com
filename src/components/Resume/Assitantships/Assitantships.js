@@ -41,7 +41,7 @@ function Assitantships() {
                             <li><strong>Grading Assistant</strong></li>
                         </div>
                         <div className="col-sm-4">
-                            <span className='float-right'>Jan 2021 - May 2023</span>
+                            <span className='float-right'>Aug 2021 - Dec 2021</span>
                         </div>
                     </div>
                     <div className="row">
