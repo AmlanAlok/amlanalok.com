@@ -12,7 +12,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='resume' element={<Resume />} />
+        {/* <Route path='resume' element={<Resume />} /> */}
         <Route path='*' element={<NoMatch />} />
       </Routes>
       <Footer/>
