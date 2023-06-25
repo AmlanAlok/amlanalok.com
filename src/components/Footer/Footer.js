@@ -4,7 +4,7 @@ function Footer() {
         <div className='footer-area '>
             <div className='row'>
                 <span className='footer-font'>
-                    <h5>Version 1.4</h5>
+                    <h5>Version 1.5</h5>
                 </span>
             </div>
         </div>
