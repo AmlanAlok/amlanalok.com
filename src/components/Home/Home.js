@@ -33,8 +33,8 @@ function Home() {
 
                         <h4>Kindly reach out to me.</h4>
 
-                        <h4>You can click the button below to view my resume on my website.</h4>
-                        <button className='btn btn-danger' onClick={() => navigate('resume')}>Resume</button>
+                        {/* <h4>You can click the button below to view my resume on my website.</h4>
+                        <button className='btn btn-danger' onClick={() => navigate('resume')}>Resume</button> */}
 
                         <h4>You can download/view the 1 page PDF version using the buttons below.</h4>
 
