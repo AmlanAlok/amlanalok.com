@@ -11,8 +11,8 @@ function Home() {
                     <div className="col-sm-8 justify-txt">
 
                         <h2>Introduction</h2>
-                        <h4>I am currently an international graduate student majoring in Computer Science at University of Texas, Arlington. I am in my final semester and will be graduating on 15th May, 2023.</h4>
-                        <h4>I want to work in the American software industry after I graduate in May 2023 and hence I am looking for job opportunities in USA. I have worked as a Cloud Developer and Full-Stack Developer in industry.</h4>
+                        <h4>I am an international graduate student who majored in Computer Science at University of Texas, Arlington. I am currently working as a Full Stack Developer at University.</h4>
+                        <h4>I want to work in the American software industry and hence I am looking for job opportunities in USA. I have worked as a Cloud Developer and Full-Stack Developer in industry.</h4>
 
                         <h2>Industry Experience</h2>
                         <h4>Prior to coming to USA, I was working as a software professional in Bangalore, India with Cognizant Technology Solutions for 3 years. My client was the Australian Telecom company Telstra.</h4>
@@ -38,11 +38,11 @@ function Home() {
 
                         <h4>You can download/view the 1 page PDF version using the buttons below.</h4>
 
-                        <a href='Amlan_Alok.pdf' download='Amlan_Alok_Resume.pdf'>
+                        <a href='Amlan_Alok_Resume.pdf' download='Amlan_Alok_Resume.pdf'>
                             <button className='btn btn-primary'>Download Resume</button>
                         </a>
                             &emsp;
-                            <a href='Amlan_Alok.pdf' target='_blank' rel="noreferrer">
+                            <a href='Amlan_Alok_Resume.pdf' target='_blank' rel="noreferrer">
                             <button className='btn btn-success'>View Resume</button>
                         </a>
 
