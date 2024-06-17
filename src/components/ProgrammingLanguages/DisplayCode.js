@@ -34,6 +34,7 @@ function DisplayCode(props) {
 
             <div className="row">
                 <div className="col-md-4">
+                    <p>Python</p>
                     <div className="code-container">
                         <pre>
                             <code className="language-python">
@@ -44,6 +45,7 @@ function DisplayCode(props) {
                     
                 </div>
                 <div className="col-md-4">
+                    <p>Java</p>
                     <div className="code-container">
                         <pre>
                             <code className="language-java">
@@ -53,7 +55,8 @@ function DisplayCode(props) {
                     </div>
                 </div>
                 <div className="col-md-4">
-                <div className="code-container">
+                    <p>JavaScript</p>
+                    <div className="code-container">
                         <pre>
                             <code className="language-javascript">
                                 {javascriptCode}
