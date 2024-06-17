@@ -2,30 +2,31 @@ import React, { useEffect, useState } from 'react';
 
 function DisplayCode(props) {
 
+    const apiUrl = process.env.REACT_APP_API_URL;
     const [pythonCode, setPythonCode] = useState('');
     const [javaCode, setJavaCode] = useState('');
     const [javascriptCode, setJavascriptCode] = useState('');
 
     useEffect(() => {
-        fetch('http://localhost:3000/Code/1-HelloWorld/' + props.pythonFileName)
+        fetch(apiUrl + '/Code/1-HelloWorld/' + props.pythonFileName)
           .then(response => response.text())
           .then(data => setPythonCode(data))
           .catch(error => console.error('Error fetching Python file:', error));
-      }, [props.pythonFileName]);
+      }, [apiUrl, props.pythonFileName]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/Code/1-HelloWorld/' + props.javaFileName)
+        fetch(apiUrl + '/Code/1-HelloWorld/' + props.javaFileName)
         .then(response => response.text())
         .then(data => setJavaCode(data))
         .catch(error => console.error('Error fetching Python file:', error));
-    }, [props.javaFileName]);
+    }, [apiUrl, props.javaFileName]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/Code/1-HelloWorld/' + props.javascriptFileName)
+        fetch(apiUrl + '/Code/1-HelloWorld/' + props.javascriptFileName)
           .then(response => response.text())
           .then(data => setJavascriptCode(data))
           .catch(error => console.error('Error fetching Python file:', error));
-      }, [props.javascriptFileName]);
+      }, [apiUrl, props.javascriptFileName]);
 
     return (
         <div>
