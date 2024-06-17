@@ -18,30 +18,27 @@ function DisplayCode(props) {
     const [javascriptCode, setJavascriptCode] = useState('');
 
     useEffect(() => {
-        fetch(apiUrl + '/Code/1-HelloWorld/' + props.pythonFileName)
+        fetch(apiUrl + '/Code/' + props.pythonFileName)
             .then(response => response.text())
             .then(data => setPythonCode(data))
             .catch(error => console.error('Error fetching Python file:', error));
     }, [apiUrl, props.pythonFileName]);
 
     useEffect(() => {
-        fetch(apiUrl + '/Code/1-HelloWorld/' + props.javaFileName)
+        fetch(apiUrl + '/Code/' + props.javaFileName)
             .then(response => response.text())
             .then(data => setJavaCode(data))
             .catch(error => console.error('Error fetching Python file:', error));
     }, [apiUrl, props.javaFileName]);
 
     useEffect(() => {
-        fetch(apiUrl + '/Code/1-HelloWorld/' + props.javascriptFileName)
+        fetch(apiUrl + '/Code/' + props.javascriptFileName)
             .then(response => response.text())
             .then(data => setJavascriptCode(data))
             .catch(error => console.error('Error fetching Python file:', error));
     }, [apiUrl, props.javascriptFileName]);
 
     useEffect(() => {
-        // if (typeof window !== "undefined") {
-        //     Prism.highlightAll();
-        // }
         Prism.highlightAll();
     }, []);
 

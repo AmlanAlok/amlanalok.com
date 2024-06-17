@@ -25,7 +25,7 @@ function ProgrammingLanguages() {
             <h1>Python vs Java vs Javascript</h1>
 
             {dataArray.map((row, rowIndex) => (
-                <DisplayCode key={rowIndex} title={row[0]} pythonFileName={row[1]} javaFileName={row[2]} javascriptFileName={row[3]} />
+                <DisplayCode key={rowIndex} title={row[0]} pythonFileName={row[1] + row[2]} javaFileName={row[1] + row[3]} javascriptFileName={row[1] + row[4]} />
             ))}
         </div>
     )
