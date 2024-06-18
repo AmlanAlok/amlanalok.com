@@ -4,16 +4,17 @@ import DisplayCode from "./DisplayCode"
 
 function ProgrammingLanguages() {
 
+    const codeFilesCSVUrl = 'https://raw.githubusercontent.com/AmlanAlok/Programming-Languages/main/4-Website/code_files.csv'
     const [dataArray, setDataArray] = useState([]);
 
     useEffect(() => {
         const fetchCSV = async () => {
-            const response = await fetch('./code_files.csv');
+            const response = await fetch(codeFilesCSVUrl);
             const reader = response.body.getReader();
             const result = await reader.read(); // raw array
             const decoder = new TextDecoder('utf-8');
             const csv = decoder.decode(result.value); // the csv text
-            const results = Papa.parse(csv, { header: false });
+            const results = Papa.parse(csv, { header: false, skipEmptyLines: true });
             setDataArray(results.data);
         };
 
