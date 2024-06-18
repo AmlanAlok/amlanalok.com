@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Prism from 'prismjs';
-import './prism-material-dark.css';
+
 // import './prism-gruvbox-dark.css';
 // import './prism-darcula.css';
 // import 'prismjs/themes/prism.css';   
@@ -8,31 +8,32 @@ import './prism-material-dark.css';
 import 'prismjs/components/prism-python';
 import 'prismjs/components/prism-java';
 import 'prismjs/components/prism-javascript';
+// import './prism-material-dark.css';
 // https://github.com/PrismJS/prism-themes/tree/master/themes
 
 function DisplayCode(props) {
 
-    const apiUrl = process.env.REACT_APP_API_URL;
+    const apiUrl = 'https://raw.githubusercontent.com/AmlanAlok/Programming-Languages/main/4-Website/'
     const [pythonCode, setPythonCode] = useState('');
     const [javaCode, setJavaCode] = useState('');
     const [javascriptCode, setJavascriptCode] = useState('');
 
     useEffect(() => {
-        fetch(apiUrl + '/Code/' + props.pythonFileName)
+        fetch(apiUrl + props.pythonFileName)
             .then(response => response.text())
             .then(data => setPythonCode(data))
             .catch(error => console.error('Error fetching Python file:', error));
     }, [apiUrl, props.pythonFileName]);
 
     useEffect(() => {
-        fetch(apiUrl + '/Code/' + props.javaFileName)
+        fetch(apiUrl + props.javaFileName)
             .then(response => response.text())
             .then(data => setJavaCode(data))
             .catch(error => console.error('Error fetching Python file:', error));
     }, [apiUrl, props.javaFileName]);
 
     useEffect(() => {
-        fetch(apiUrl + '/Code/' + props.javascriptFileName)
+        fetch(apiUrl + props.javascriptFileName)
             .then(response => response.text())
             .then(data => setJavascriptCode(data))
             .catch(error => console.error('Error fetching Python file:', error));

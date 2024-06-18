@@ -8,7 +8,7 @@ function ProgrammingLanguages() {
 
     useEffect(() => {
         const fetchCSV = async () => {
-            const response = await fetch('/code_files.csv');
+            const response = await fetch('./code_files.csv');
             const reader = response.body.getReader();
             const result = await reader.read(); // raw array
             const decoder = new TextDecoder('utf-8');
